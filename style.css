@@ -1,0 +1,280 @@
+.section-margin {
+    margin-top: 100px;
+}
+* {
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+/* Navbar */
+.navbar {
+    background: #002939;
+    
+}
+.navbar-brand {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.navbar-nav {
+    font-weight: 400;
+   margin-left: auto;
+    font-size: 17px;
+    margin: auto;
+}
+
+form .btn {
+    margin-right: auto;
+}
+form .btn-log .btn:hover {
+    background-color: #002939;
+    color: #fff;
+}
+
+.icons-home i {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 8px;
+    margin-left: 20px;
+    padding: auto;
+}
+
+.home {
+    background-color: #002939;
+    height: 450px;
+    padding-left: 20px;
+}
+.home .heading {
+    color: #DDC190;
+    font-weight: 600;
+    padding-top: 11rem;
+    font-family: 'Merriweather', serif;
+}
+.home .heading-2 {
+    color: #DDC190;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+.home .isi {
+    color: white;
+    margin-top: 20px;
+    font-weight: 200;
+}
+.btn-home a{
+    color: #DDC190;
+    border: 2px solid #DDC190 ;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.btn-home a:hover {
+    color: #002939;
+    background-color: #DDC190;
+}
+
+.home img {
+    right: 0;
+    bottom: -20%;
+}
+.home .container, .home .row {
+    height: 100%;
+}
+/* Our Services */
+.services {
+    font-family: 'Merriweather', serif;
+}
+.heading {
+    font-size: 35px;
+    margin-top: -10px;
+    font-weight: 600;
+}
+.diskon {
+    font-size: 20px;
+    font-weight: lighter;
+}
+.card-services {
+    background-color: #002939;
+    color: #fff;
+    padding: 20px;
+    width: 16rem;
+    margin: auto;
+}
+.card-services .btn-services {
+    background-color: #DDC190;
+    font-size: 20px;
+    color: #fff;
+}
+.card-services .btn-services:hover {
+    background-color: #ffffff;
+    color: #fff;
+    transition: 0.2s;
+}
+.btn-services a {
+    color: #002939;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+.banner1 {
+    height: 450px;
+}
+.banner1 .container {
+    background-color: #002939;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.btn-banner1 {
+    background-color: #DDC190;
+    margin-top: 10px;
+}
+.banner1 img {
+   bottom: -20%;
+   margin-left: 220px;
+}
+.banner1 .judul {
+    padding-left: 20px;
+}
+/* fasilitas tambahan */
+.testimoni .container {
+    color: #fff;
+}
+.testimoni .heading {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+.testimoni{
+    background-color: #002939;
+    bottom: 40px;
+}
+.testimoni .heading {
+    margin-top: -150px;
+    margin-bottom: -5px;
+}
+.testimoni .subheading {
+    font-family: 'Merriweather', serif;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.span .icon {
+    margin-top: 30px;
+}
+/* Our services */
+.our-services {
+    font-family: 'Merriweather', serif;
+}
+.card .img-top {
+    width: 300px;
+    height: 230px;
+}
+.card {
+    z-index: 1;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.card:hover {
+    color: #fff;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    left: -100%;
+    top: 0%;
+    background:#002939;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+    z-index: -1;
+}
+.card:hover::before {
+    left: 0%;
+}
+/* our customer */
+.our-customer {
+    font-family: 'Merriweather', serif;
+}
+.our-customer .container .btn {
+    background-color: #002939;
+    color: white;
+}
+.our-customer .container .btn:hover {
+    background-color: #397992;
+    color: #ffffff;
+    transition: 0.3s;
+}
+/* footer */
+.footer {
+    background-color: #002939;
+    color: #fff;
+}
+.footer ul {
+    color: #fff;
+    padding: 0;
+    list-style: none;
+}
+.footer ul li {
+    margin-bottom: 8px;
+}
+.footer ul li i {
+    margin-right: 6px;
+}
+.footer a {
+    color:#fff;
+}
+.footer a i {
+    color:#fff;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    color: rgb(255, 255, 255);/* Fixed/sticky position */
+    background-color: teal;
+    background: #002939;
+    border-radius: 20px;
+    bottom: 30px; /* Place the button at the bottom of the page */
+    right: 40px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+  }
+  .popup {
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+.popup img {
+    margin-top: -50px;
+    border-radius: 50%;
+}
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #00be5f;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
